@@ -1,5 +1,9 @@
 import "./globals.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import "@fontsource/open-sans/300.css";
+import "@fontsource/open-sans/500.css";
+import "@fontsource/open-sans/800.css";
 
 export const metadata = {
   title: "TLA Graphics",
@@ -22,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className="pagemax">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgray;
+    color: #333;
+    text-align: center;
+
+}
+.mainFooter {
+    box-sizing: border-box;
+    background-color: gray;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    line-height: 1.6em;
+    padding: 2em;
+    flex: 1;
+    flex-shrink: 0;
+}
+.copy{
+    line-height: 1.6em;
+    padding: 2em;
+    color: gray;
+
+}
+.a {
+    color: white;
+    cursor: pointer;
+}
+.a:hover {
+    color: lightskyblue;
+}

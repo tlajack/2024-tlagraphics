@@ -4,7 +4,12 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+    --primary:#00a19b;
+		--primary-light:#56d3cc;
+		--primary-dark:#00726d;
+		--secondary:#ffeb3b;
+		--secondary-light:#ffff72;
+		--secondary-dark:#c8b900;
 }
 
 * {
@@ -17,6 +22,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -32,6 +38,7 @@ a {
 
 
 .pagemax{
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
+

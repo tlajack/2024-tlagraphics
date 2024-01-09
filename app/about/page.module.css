@@ -1,0 +1,316 @@
+/* import introImage from "../images/Toronto-Scrapers.jpg"; */
+/* import whoImage from "../images/bg-whoweare.jpg";
+import imaginebg from "../images/bg-imagine.jpg";
+import thanksbg from "../images/bg-thanks.jpg"; */
+
+.about {
+    width: 100%;
+  .section {
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    color: gray;
+    overflow: hidden;
+  }
+  .intro {
+    background-image: url(../images/Toronto-Scrapers.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  .whoweare {
+    background-image: url(../images/bg-whoweare.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    text-align: left;
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+  }
+  .whoweareImages{
+    max-width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 600px) {
+        order:1;
+        margin-top: 2em;
+    }
+  }
+
+  .whoweareImage1, 
+  .whoweareImage2 {
+    max-width: 90%;
+    height: auto;
+    margin-right: 1rem;
+  }
+  .whoweareCopy{
+    width:60%;
+    .p{
+        max-width: 65ch;
+        text-wrap: pretty;
+    }
+
+  }
+  .parallelogram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-height: 70px;
+    transform: skew(20deg);
+    background: #00a19b;
+    overflow: hidden;
+    position: relative;
+    margin: 0.5em;
+    .p {
+      color: #fff;
+      transform: skew(-20deg, 0deg);
+      margin: 0;
+      padding: 2em;
+      text-align: center;
+      line-height: 1.4em;
+    }
+  }
+  .key {
+    background: linear-gradient(0deg, #e6e6e6, #fff 10%);
+  }
+  .whatwedo {
+    background: linear-gradient(0deg, #e6e6e6, #fff 10%);
+    flex-direction: row;
+    .text {
+      padding: 0 2rem;
+    }
+    .whatwedoimage {
+      width: 40%;
+      height: auto;
+      @media (max-width: 600px) {
+        margin-top: 2em;
+    }
+    }
+    @media (max-width: 600px) {
+       flex-direction: column;
+    }
+  }
+  .whychooseus {
+    background: linear-gradient(0deg, #e6e6e6, #fff 10%);
+
+    flex-direction: row;
+    .image {
+      max-width: 30%;
+      margin-right: 1rem;
+      @media (max-width: 600px) {
+        order:1
+     }
+    }
+    .whychooseCopy{
+            max-width: 65ch;
+            text-wrap: pretty;
+    }
+    .whychooseImgs{
+        max-width: 100%;
+        height:auto;
+        @media (max-width: 600px) {
+            margin-top: 2em;
+         }
+    }
+    @media (max-width: 600px) {
+        flex-direction: column;
+     }
+  }
+
+  .ourpromise,
+  .companies {
+    background: linear-gradient(0deg, #e6e6e6, #fff 10%);
+    .h1 {
+      margin-bottom: 2em;
+    }
+  }
+  .companiesImages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    .companyImg{
+        width:100%;
+        height:auto;
+        padding:10px;
+    }
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(3, 1fr);
+        .companyImg{
+            padding:3px;
+        }
+     }
+    }
+    .companiesImages :global(Image) {
+    max-width: 100px;
+    }
+
+  .imagine {
+    background-image: url(../images/bg-imagine.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imaginebg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: end;
+    width: 100%;
+    height: 100%;
+  }
+  .imaginemain {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagineintro {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-self: end;
+  }
+  .imaginetext{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    max-width: 700px;
+    @media (max-width: 600px) {
+        flex-direction: column;;
+    }
+    }
+
+  .imaginetext1 {
+    text-align: left;
+    flex: 1 1 0;
+    /* grid-column: 1/2;
+    grid-row: 2/3; */
+  }
+  .imaginetext2 {
+    text-align: left;
+    flex: 1 1 0;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
+  }
+  .imaginetext3 {
+    text-align: left;
+    flex: 1 1 0;
+    /* grid-column: 3/4;
+    grid-row: 2/3; */
+  }
+
+  .thanks {
+    background-image: url(../images/bg-thanks.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .thanksmain {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 75ch;
+    text-wrap: pretty;
+  }
+  .signature {
+    width: 300px;
+    height:auto;
+    margin: 0 auto;
+  }
+
+  .hr {
+    height: 0.3em;
+    color: var(--primary);
+    background-color: var(--primary);
+    width: 40ch;
+    text-align: left;
+    margin: 0 0 1em;
+    border: 0;
+  }
+
+}
+
+@media (max-width: 768px), (max-height: 500px) {
+  /* font-size: 12px; */
+  .intrologo {
+    width: 40%;
+  }
+  .whoweareImages {
+    max-width: 20%;
+  }
+  .parallelogram {
+    min-height: initial;
+  }
+  .imagine {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intrologo {
+    width: 100%;
+  }
+  .whoweare,
+  .whychooseus {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .whatwedo {
+    flex-direction: column;
+  }
+  .whoweareImages,
+  .whychooseus .image {
+    max-width: 80%;
+  }
+  .companiesImages {
+    gap: 3rem 1rem;
+  }
+  .imaginemain {
+    grid-template-columns: 1fr;
+  }
+
+  .imagineintro {
+    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .imaginetext1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .imaginetext2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .imaginetext3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+}

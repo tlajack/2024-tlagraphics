@@ -15,4 +15,11 @@
     display: flex;
     gap: 1.5rem;
     font-size: 1.25rem;
+    color: teal;
+    .item :hover{
+        color:red;
+    }
+    
 }
+/* .navlist li:hover{
+ color: red; */

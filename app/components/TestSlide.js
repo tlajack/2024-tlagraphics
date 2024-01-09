@@ -3,6 +3,18 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import styles from "./TestSlide.module.css";
+import img_lg from "../images/homepage/LG-03.jpg";
+import img_dos from "../images/homepage/dosequis-04.jpg";
+import img_noble from "../images/homepage/nobleStratford.jpg";
+import img_display1 from "../images/homepage/acrylicisplay-01.jpg";
+import img_display2 from "../images/homepage/displayCase-01.png";
+import img_beercart from "../images/homepage/beerCart-01-sq.jpg";
+import img_tesla from "../images/homepage/DSC_7362.jpg";
+import img_nike from "../images/homepage/Nike-Yorkdale-IMG_7346-sq.jpg";
+import img_canadag from "../images/homepage/CanadaGoose-01-1200x800-sq.jpg";
+import img_frost from "../images/homepage/tla-presentation14-sq.jpg";
+import img_dentistry from "../images/homepage/IMG_6530-sq.jpg";
+import img_trailer from "../images/homepage/DSC_4045.jpg";
 
 function TestSlide() {
   const autoplayOptions = {
@@ -18,12 +30,8 @@ function TestSlide() {
       <div className={styles.embla__container}>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/LG-03.jpg"
+            src={img_lg}
             alt="dimensional sign"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -31,12 +39,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/dosequis-04.jpg"
+            src={img_dos}
             alt="Dos Equis wall sign"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -44,12 +48,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/nobleStratford.jpg"
+            src={img_noble}
             alt="Backlit Custom Logo"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -57,12 +57,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/acrylicisplay-01.jpg"
+            src={img_display1}
             alt="Custom Acrylic Display"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -70,12 +66,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/displayCase-01.png"
+            src={img_display2}
             alt="Display Case"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -83,12 +75,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/beerCart-01-sq.jpg"
+            src={img_beercart}
             alt="Beer Cart"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -96,12 +84,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/DSC_7362.jpg"
+            src={img_tesla}
             alt="Car Wrap"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -109,12 +93,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/Nike-Yorkdale-IMG_7346-sq.jpg"
+            src={img_nike}
             alt="Nike Store, Yorkdale - Ontario"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -122,12 +102,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/CanadaGoose-01-1200x800-sq.jpg"
+            src={img_canadag}
             alt="Canada Goose - Henry Poole display"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -135,12 +111,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/tla-presentation14-sq.jpg"
+            src={img_frost}
             alt="Frost panels "
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -148,12 +120,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/IMG_6530-sq.jpg"
+            src={img_dentistry}
             alt="Dentistry on 88 - reception logo"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
@@ -161,12 +129,8 @@ function TestSlide() {
         </div>
         <div className={styles.embla__slide}>
           <Image
-            src="/images/homepage/DSC_4045.jpg"
+            src={img_trailer}
             alt="Vehicle Wrap"
-            width={200}
-            height={150}
-            quality={50}
-            sizes="100vw"
             style={{ width: "100%", height: "auto" }}
             className={styles.slideImage}
           />
