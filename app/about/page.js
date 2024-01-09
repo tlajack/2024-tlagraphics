@@ -1,11 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import introImage from "../images/Toronto-Scrapers.jpg";
-import whoImage from "../images/bg-whoweare.jpg";
-import imaginebg from "../images/bg-imagine.jpg";
-import thanksbg from "../images/bg-thanks.jpg";
-
 import logo from "../images/tla-logo-tealwhite.png";
 import photoStudio from "../images/whoweare-01.jpg";
 import photoPrinter from "../images/whoweare-02.png";
@@ -35,7 +30,7 @@ function about() {
       <div className={styles.about}>
         <div className={styles.section + " " + styles.intro}>
           <Image
-            className={styles.introlog}
+            className={styles.intrologo}
             src={logo}
             alt="TLA Graphics Logo"
           />
@@ -156,7 +151,8 @@ function about() {
         </div>
 
         <div className={styles.section + " " + styles.companies}>
-          <h1 className={styles.h1}>Companies we work with </h1>
+          <h1 className={styles.h1}>Our Clients </h1>
+          <hr className={styles.hr} />
 
           <div className={styles.companiesImages}>
             <Image
@@ -270,7 +266,7 @@ function about() {
         <div className={styles.section + " " + styles.imagine}>
           <div className={styles.imaginemain}>
             <h1>You imagine it, we produce it.</h1>
-            <hr className={styles.hr} />
+            <hr className={styles.hr + " " + styles.center + " " + styles.spacebot} />
 
             <p>
               We provide creative solutions for a multitude of truly unique and
@@ -307,19 +303,19 @@ function about() {
         ></Image> */}
 
           <div className={styles.thanksmain}>
-            <p>
+            <p className={styles.p}>
               I would personally like to thank you for this opportunity. TLA’s
               objective is to become a valued resource partner that can assist
               with your team’s challenging development strategies, client
               deliverables, as well as the demands of driving new business. We
               understand that every project must hit its mark.
             </p>
-            <p>
+            <p className={styles.p}>
               As president of TLA Graphics I can promise that everyone is here
               to provide support to you and your team. We will work tirelessly
               to earn your trust.
             </p>
-            <p>Sincerely, Mark White</p>
+            <p className={styles.p}>Sincerely, Mark White</p>
             <Image
               src={markSignature}
               className={styles.signature}
