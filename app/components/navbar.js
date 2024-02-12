@@ -27,11 +27,11 @@ function navbar() {
               about
             </Link>
           </li>
-          <li className={styles.item}>
+          {/* <li className={styles.item}>
             <Link href="contact" title="contact">
               contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
