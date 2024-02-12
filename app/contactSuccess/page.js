@@ -1,7 +1,9 @@
 function contact() {
   return (
     <div>
-      <p>Thanks for your email. We will be in touch.</p>
+      <p style={{ display: `block`, margin: `3em auto`, maxWidth: `75ch` }}>
+        Thanks for your email. We will be in touch.
+      </p>
     </div>
   );
 }
