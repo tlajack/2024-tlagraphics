@@ -8,7 +8,7 @@ import thanksbg from "../images/bg-thanks.jpg"; */
   .section {
     box-sizing: border-box;
     min-height: 100vh;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     /* scroll-snap-align: start; */
     display: flex;
     flex-direction: column;
