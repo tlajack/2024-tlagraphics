@@ -9,6 +9,7 @@ function contact() {
         name="webContact"
         method="post"
         data-netlify="true"
+        data-netlify-recaptcha="true"
         action="/contactSuccess"
         netlify-honeypot="bot-field"
       >
