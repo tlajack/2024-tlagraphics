@@ -57,6 +57,7 @@ function contact() {
             ></textarea>
           </li>
           <li className={styles.li}>
+            <div data-netlify-recaptcha="true"></div>
             <button className={styles.button} type="submit">
               Send Message
             </button>
