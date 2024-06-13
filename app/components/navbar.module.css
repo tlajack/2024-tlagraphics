@@ -23,3 +23,10 @@
 }
 /* .navlist li:hover{
  color: red; */
+
+ @media only screen and (max-width: 800px) {
+    .tlalogo{
+        height:35px;
+        width:auto;
+    }
+ }
