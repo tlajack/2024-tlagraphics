@@ -22,7 +22,7 @@
     "sharp": "^0.33.2"
   },
   "devDependencies": {
-    "eslint": "^9.4.0",
+    "eslint": "^8",
     "eslint-config-next": "^14.2.4"
   }
 }
