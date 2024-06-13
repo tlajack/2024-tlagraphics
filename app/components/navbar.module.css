@@ -5,8 +5,8 @@
     padding: 2rem 1rem;
 }
 .tlalogo{
-    width:60px;
     height:60px;
+    width:auto;
 }
 .navlist ul{
     list-style: none;

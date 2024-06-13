@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import tlaLogo from "@/public/tla-icon.svg";
+// import tlaLogo from "@/public/tla-icon.svg";
+import tlaLogo from "@/public/tla-logo-horizontal.svg";
 import styles from "./navbar.module.css";
 
 function navbar() {
