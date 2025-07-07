@@ -7,7 +7,7 @@ import img_lg from "../images/homepage/LG-03.jpg";
 import img_dos from "../images/homepage/dosequis-04.jpg";
 import img_noble from "../images/homepage/nobleStratford.jpg";
 import img_display1 from "../images/homepage/acrylicisplay-01.jpg";
-import img_display2 from "../images/homepage/displayCase-01.png";
+import img_display2 from "../images/homepage/displayCase-01.jpg";
 import img_beercart from "../images/homepage/beerCart-01-sq.jpg";
 import img_tesla from "../images/homepage/DSC_7362.jpg";
 import img_nike from "../images/homepage/Nike-Yorkdale-IMG_7346-sq.jpg";
