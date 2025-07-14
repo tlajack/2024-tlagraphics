@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.css";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 import TestSlide from "./components/TestSlide";
 import img_dent from "./images/homepage/dentistry-01-IMG_6525.jpg";
 import img_desk from "./images/homepage/palmieri-navigate-infoDesk.jpg";
@@ -17,6 +19,7 @@ import img_ladder from "./images/homepage/tlaBuilding.jpg";
 export default function Home() {
   return (
     <div>
+      <GoogleAnalytics trackPageViews />
       <TestSlide />
 
       {/* <!-- Visual Merch SECTION --> */}
