@@ -1,4 +1,5 @@
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import "@fontsource/open-sans/300.css";
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-VBWE8K4EVR" />
       </body>
     </html>
   );

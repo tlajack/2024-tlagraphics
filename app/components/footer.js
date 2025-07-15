@@ -51,7 +51,7 @@ function footer() {
         <div>
           <p>
             <Link className={styles.a} href="#top">
-              <span class="to-the-top-long">
+              <span className="to-the-top-long">
                 To the top <span aria-hidden="true">↑</span>
               </span>
             </Link>
